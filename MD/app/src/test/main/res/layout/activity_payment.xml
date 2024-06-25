@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewPaymentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed with Payment"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/tv_movie_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewPaymentTitle"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tv_movie_genres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_movie_title"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tv_select_showtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a Showtime"
+        android:textSize="18sp"
+        android:layout_below="@id/tv_movie_genres"
+        android:layout_marginTop="16dp" />
+
+    <GridLayout
+        android:id="@+id/grid_showtime_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_select_showtime"
+        android:layout_marginTop="16dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="3"
+        android:useDefaultMargins="true" />
+
+    <TextView
+        android:id="@+id/tv_select_seat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a Seat"
+        android:textSize="18sp"
+        android:layout_below="@id/grid_showtime_selection"
+        android:layout_marginTop="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_select_seat"
+        android:layout_marginTop="16dp"
+        android:layout_above="@id/buttonPay">
+
+        <GridLayout
+            android:id="@+id/grid_seat_selection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="5"
+            android:useDefaultMargins="true">
+            <!-- Seat buttons will be added dynamically in the activity -->
+        </GridLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonPay"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BAYAR SEKARANG"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/blue"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

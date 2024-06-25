@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_home_filled_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_theater"
+        android:icon="@drawable/baseline_theaters_24"
+        android:title="Theater" />
+    <item
+        android:id="@+id/navigation_ticket"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Account" />
+</menu>

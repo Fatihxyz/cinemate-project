@@ -1,8 +1,8 @@
 {
   "project_info": {
-    "project_number": "342216530624",
-    "project_id": "capstone-project-cinemate",
-    "storage_bucket": "capstone-project-cinemate.appspot.com"
+    "project_number": "-",
+    "project_id": "-",
+    "storage_bucket": "-"
   },
   "client": [
     {
@@ -28,7 +28,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD3sI2AQAepTH1G5GUtvYMN1IeuDPh_pvQ"
+          "current_key": "-"
         }
       ],
       "services": {

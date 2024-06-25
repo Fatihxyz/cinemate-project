@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "342216530624",
+    "project_id": "capstone-project-cinemate",
+    "storage_bucket": "capstone-project-cinemate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342216530624:android:8300d45196ffe95e98ab25",
+        "android_client_info": {
+          "package_name": "com.example.capstone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342216530624-o4srummhrn782rgosfc34f5pubj5ub3k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.capstone",
+            "certificate_hash": "d553db6f263a841688d4d70cc4da151b248f18ff"
+          }
+        },
+        {
+          "client_id": "342216530624-ib7r7b7533gglbafa094vr74hn4pj4qa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3sI2AQAepTH1G5GUtvYMN1IeuDPh_pvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342216530624-ib7r7b7533gglbafa094vr74hn4pj4qa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

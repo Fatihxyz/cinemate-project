@@ -10,6 +10,7 @@
 
 
 BACKGROUNDER:
+
 Machine Learning: we built a movie recommendation system using TensorFlow, leveraging the MovieLens dataset for data preprocessing. The project focused on creating a model capable of recommending films by employing a collaborative filtering method. This approach identifies and suggests movies with similar genres that align with user preferences. The system processes user ratings and movie information to provide personalized recommendations, enhancing the user experience by suggesting films they are likely to enjoy based on their viewing history and preferences. This implementation demonstrates the practical application of machine learning in building effective and user-centric recommendation systems.
 
 Mobile Development: we developed a native Android application using Kotlin in Android Studio, focusing on authentication and design. Firebase was used for authentication, providing secure and reliable user sign-in and registration processes. The application design was meticulously crafted within Android Studio, ensuring a user-friendly and visually appealing interface. This approach facilitated a seamless development workflow from design to implementation. This project showcased the practical application of native Android development, integrating Firebase for robust authentication and utilizing Android Studio for efficient design, resulting in a secure, well-designed mobile application.
